@@ -22,5 +22,5 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
   
     int grid = 12;
-		
+    ofVec2f mouse;
 };
